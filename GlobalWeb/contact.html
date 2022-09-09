@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name ="authoer" content = "Kyle Nguyen">
+        <meta name ="description" content = "Home page used to explain gaming around the world">
+        <meta name = "keywords" content = "korea, usa, gaming, competitive">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pro Gaming</title>
+        <link rel="stylesheet"  type="text/css" href="gaming.css">
+        <link rel="icon" href="images/controller.png" type="images/x-icon">
+        <link rel="shortcut icon" href="images/controller.png" type="images/x-icon">
+        <!--[if lt IE 9]-->
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5."></script>
+    </head>
+
+<body><div id="wrapper">
+    <!------------Header------------->
+    <header>
+        <h1>Pro Gaming Around the World</h1>
+    </header>
+    <!------------Navigation------------->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="korea.html">Korea</a>
+        <a href="usa.html">USA</a>
+        <a href="fundings.html">Fundings</a>
+        <a href="statistics.html">Stats</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <!------------Main Content------------->
+    <main id="Forms">
+            <form method="post" action="http://apollo1.occc.edu/genericFormHandler.php." id="Form" name="Form" onsubmit="return validateForm();" novalidate="novalidate">
+            <br>
+            <legend>Contact us to get help towards becoming a Pro Gamer.</legend>	
+                <!---------------TEXT BOXES------------>
+                <br>
+                <label for="userName"><b>Name:</b></label> 
+                <input type="text" name="userName" id="userName" tabindex="1" accesskey="N" class="required"><br><br>
+                <label for="eMail"><b>Email:</b></label> 
+                <input type="eMail" name="eMail" id="eMail" tabindex="2" accesskey="M" class="required"><br>
+                <!---------------SELECT LIST------------>
+                <label for="games"><b>What games do you play?</b></label>
+                <select size="1" name="games" id="games" class="required" accesskey="G" tabindex="7">
+                    <option value="Valorant">Valorant</option>
+                    <option value="League of Legends">League of Legends</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                    <option value="Call of Duty">Call of Duty</option>
+                    <option value="Counter-Strike">Counter-Strike</option>
+                    <option value="Rainbow Six Siege">Rainbow Six Siege</option>
+                    <option value="Other">Other</option></select><br>
+                <!---------------CHECKBOX---------------->
+                <label for="games"  id="games" accesskey="H" tabindex="3" class="required"></label>
+                </label><b>How many hours are you able to invest into pursuing your goals?</b></label>
+                <br><input type="checkbox" id="1-2hours" name="1-2hours" value="yes">
+                    <label for="1-2hours">1-2 Hours</label>
+                <br><input type="checkbox" id="2-3hours" name="2-3hours" value="yes">
+                    <label for="2-3hours">2-3 Hours</label>
+                <br><input type="checkbox" id="3-4hours" name="3-4hours" value="yes">
+                    <label for="4-4hours">3-4 Hours</label>
+                <br><input type="checkbox" id="alot" name="alot" value="yes">
+                    <label for="alot">As many hours as needed</label><br>
+
+                <!-----------------RADIO------------------>
+                <b>Do you have what it takes to become a Pro?</b>
+                <input type="radio" name="pro" id="pro" tabindex="4" accesskey="P" class="required">
+                <label for="Pro">YESSIR!</label>	
+                <input type="radio" name="noob" id="noob" tabindex="5" accesskey="N" class="required">
+                <label for="noob">NAH!</label><br>
+                                <!----------------BUTTONS---------------->
+                                <br><br>
+                                <input type="submit" name="mySubmit" id="mySubmit" tabindex="" accesskey="S" value="Submit Form" class="printHidden">
+                                &nbsp; &nbsp;
+                                <input type="reset" name="myReset" id="myReset" tabindex="" accesskey="R" value="Clear Form" class="printHidden">
+            <br>
+            </form>
+            </main>
+
+    <!------------Footer------------->
+    <footer>
+        <div id="navBottom">
+            <a href="index.html">Home</a>
+        <a href="korea.html">Korea</a>
+        <a href="usa.html">USA</a>
+        <a href="fundings.html">Fundings</a>
+        <a href="statistics.html">Stats</a>
+        <a href="contact.html">Contact</a>
+        </div>
+        <br>
+        Copyright &copy; 2022 Pro Gaming LLC
+        <a href="Mailto:Kyle@Nguyen.com">Kyle@Nguyen.com</a><br>
+        Disclaimer: Oklahoma City Community College does not
+        necessarily endorse the content or the respective links of
+        this web page
+    <script>
+        document.write("<p>Date Last Modified on:");
+        document.write(document.lastModified);
+        document.write("</p>");
+    </script>
+    </footer>
+</div>
+</body>
+</html>
